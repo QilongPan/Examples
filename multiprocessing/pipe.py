@@ -1,6 +1,7 @@
 """
 子进程调用parent_remote.close不会影响主进程的，主进程的依然未关闭,应该是创建子进程时重新深拷贝了
 fork:https://blog.csdn.net/xy010902100449/article/details/44851453
+https://blog.csdn.net/xy010902100449/article/details/44851453
 """
 import time
 from multiprocessing import Pipe
